@@ -62,5 +62,5 @@ var_dump((new EquationsPossible())->invoke(["a==b","b==c","a==c"]));
 var_dump((new EquationsPossible())->invoke(["a==b","b!=c","c==a"]));
 var_dump((new EquationsPossible())->invoke(["c==c","b==d","x!=z"]));
 
-/**????*/
+/**错误样例*/
 var_dump((new EquationsPossible())->invoke(["e==d","e==a","f!=d","b!=c","a==b"]));
