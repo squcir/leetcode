@@ -4,7 +4,8 @@ require '../Solution.php';
 
 /**
  * @link https://leetcode-cn.com/problems/palindrome-number/
- * @me yes
+ * @me
+ * @part
  */
 class IsPalindrome extends Solution
 {
